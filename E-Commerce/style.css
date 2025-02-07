@@ -1,0 +1,389 @@
+*{
+    font-family: 'Roboto' , sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(212,211,211);
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(1,1,21);
+    color: white;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    
+}
+.logo{
+    margin-left: 16px;
+    font-size: 18px;
+}
+nav ul{
+    display: flex;
+    margin-right: 13px;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+    font-size: 16px;
+    text-decoration: none;
+    margin-inline: 20px;
+    color: beige;
+}
+ul li a:hover, ul li a.active{
+    color:rgb(4, 212, 212);
+    font-weight: 600;
+}
+.icon{
+   display: none;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    margin-top: 155px;
+}
+.mainText h1{
+    font-size: 55px;
+    color: rgb(3,168,168);
+}
+.mainText h2{
+    font-size: 33px;
+}
+.mainText button{
+    width: 120px;
+    height: 34px;
+    background-color:rgb(3, 123,123) ;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+}
+.mainText button:hover{
+    border: 2px solid aqua;
+    background-color: transparent;
+    color: aqua;
+    cursor: pointer;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.cards .crd{
+    margin-inline: 22px;
+    text-align: center;
+}
+.crd img{
+    width: 300px;
+    height: 340px;
+    border-radius: 10px 10px 0px 0px;
+}
+.crd i{
+    color: rgb(248, 162, 3);
+    position: relative;
+    top: -11px;
+}
+.crd h3{
+    margin-top: 1px;
+}
+.shop .head{
+    text-align: center;
+    padding: 10px 0px;
+}
+.shop .head span{
+    color: orangered;
+}
+.Customer .head{
+    text-align: center;
+    padding: 10px 0px;
+
+}
+
+.Customer .head span{
+    color: orangered;
+}
+.reviews{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+
+}
+.reviews .rCard{
+    width: 260px;
+    height: 240px;
+    background-color: aliceblue;
+    text-align: center;
+    padding: 13px;
+    margin-inline: 20px;
+    margin-top: 20px;
+    border-radius: 10px 10px 0px 0px;
+}
+.rCard img{
+    width: 42%;
+    border-radius: 50%;
+}
+.rCard button{
+    width: 90px;
+    height: 30px;
+    background-color:rgb(3, 123,123) ;
+    color: black;
+    border: none;
+    font-size: 18px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.rCard button:hover{
+    border: 2px solid aqua;
+    background-color: transparent;
+    color: aqua;
+    cursor: pointer;
+}
+
+.read .head{
+    text-align: center;
+    padding: 10px 0px;
+
+}
+.read .head span{
+    color: orangered;
+}
+.blog{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.blog .blogCard{
+    width: 300px;
+    text-align: center;
+    background-color: aliceblue;
+    margin-inline: 22px;
+    padding: 16px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.blogCard img{
+    width: 100%;
+    border-radius: 5px;
+}
+.blogCard a{
+    padding: 4px 20px;
+    background-color:rgb(3, 123,123) ;
+    color: black;
+    border: none;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.blogCard:hover{
+    transition: 1s ease;
+    background-color: grey;
+}
+.contact .head{
+    text-align: center;
+    padding: 10px 0px;
+
+}
+.contact .head span{
+    color: orangered;
+}
+.connect{
+    text-align: center;
+
+}
+.connect input{
+    width: 340px;
+    padding: 11px;
+    font-size: 18px;
+    background-color: transparent;
+    margin-top: 11px;
+    border: 2px solid black;
+    border-radius: 5px;
+
+}
+.connect button{
+    width: 130px;
+    height: 36px;
+    background-color: rgb(1, 143, 143);
+    color: white;
+    font-size: 20px;
+    border: none;
+    margin-top: 22px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: black;
+    padding: 44px;
+    color: aliceblue;
+    margin-top: 23px;
+}
+
+
+
+/* item page css */
+
+.itemPage{
+    display: flex;
+    display: none;
+    margin-top: 33px;
+    margin-left: 25px;
+
+}
+.itemPage img{
+    width: 400px;
+}
+.itemPage .itemText{
+    margin-inline: 24px;
+}
+.itemText h3{
+    color: green;
+}
+.itemPage input{
+    width: 40px;
+    padding: 4px;
+    font-size: 20px;
+    outline: none;
+}
+.itemText a{
+    padding: 4px 20px;
+    background-color: orangered;
+    color:white;
+    text-decoration: none;
+}
+
+
+/* buy page css */
+
+.buyPage{
+    width: 40%;
+    background-color: azure;
+    display: none;
+    padding: 20px;
+   
+    
+    position: absolute;
+    left: 30%;
+    right: 50%;
+    top: 8%;
+}
+.buyPage i{
+    font-size: 30px;
+    position: relative;
+    top: 0%;
+    left: 0%;
+}
+
+
+.butText input{
+    margin-top: 7px;
+    width: 80%;
+    padding: 5px;
+}
+.butText button{
+    margin-top: 7px;
+    padding: 4px 15px;
+    background-color: rgb(39, 69, 39);
+    color: white;
+    border: none;
+    font-size: 20px;
+    outline: none; border-radius: 5px;
+
+
+}
+.butText select{
+    width: 80%;
+    padding: 5px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:600px){
+    nav ul{
+        display: none;
+    }
+    .icon {
+        display: block;
+        margin-left: 20px;
+        display: flex;
+        align-items: center;
+        font-size: 30px;
+        margin-right: 20px;
+        cursor: pointer;
+    }
+    .showData{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 58px;
+        background-color: grey;
+        width: 100%;
+        text-align: center;
+        height: 240px;
+        gap: 20px;
+        padding: 0%;
+    }
+    .main{
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+        margin-top: 155px;
+    }
+    .mainText{
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */ 
+        margin: 0px 20px 0px 35px;
+    }
+    .mainText h1{
+        font-size: 55px;
+        color: rgb(3,168,168);
+    }
+    .mainText h2{
+        font-size: 33px;
+    }
+    .mainText button{
+        width: 120px;
+        height: 34px;
+        background-color:rgb(3, 123,123) ;
+        color: white;
+        font-size: 18px;
+        border: none;
+        border-radius: 5px;
+    }
+    .mainText button:hover{
+        border: 2px solid aqua;
+        background-color: transparent;
+        color: aqua;
+        cursor: pointer;
+    }
+    
+}
